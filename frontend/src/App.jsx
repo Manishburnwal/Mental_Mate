@@ -9,7 +9,7 @@ import Selection from './pages/Selection'
 import getCurrentUser from './customHooks/getCurrentUser'
 import { useSelector } from 'react-redux'
 
-export const serverUrl = "http://localhost:3000"
+export const serverUrl = "https://mental-mate.onrender.com"
 
 function App() {
   const {userData} = useSelector(state=>state.user)
