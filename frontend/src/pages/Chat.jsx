@@ -83,9 +83,9 @@ const Chat = () => {
   // Check API configuration on component mount
   useEffect(() => {
     if (!isGeminiConfigured()) {
-      console.warn('⚠️  Gemini API is not properly configured. Please add your API key.');
+      console.warn('Gemini API is not properly configured. Please add your API key.');
     } else {
-      console.log('✅ Gemini API is configured and ready!');
+      console.log('Gemini API is configured and ready!');
     }
   }, []);
 
